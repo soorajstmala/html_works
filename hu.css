@@ -1,0 +1,43 @@
+.mainbody
+{
+    /* background-color:#666761; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.table
+{
+    width: 25%;
+    height: 75vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img
+{
+    width: 40%;
+    /* border-radius:50%; */
+    clip-path: circle(40%);
+    position: relative;
+    bottom: 15vh;
+    background-color: rgb(102, 73, 73);
+    padding: 0.4%;
+}
+@keyframes anime
+{
+    from{background-image: linear-gradient(#DCE35B,#45B649);}
+    to{ background-image: linear-gradient(#00B09B, #96C93D);}
+    
+}
